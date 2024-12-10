@@ -1,0 +1,445 @@
+[
+  {
+    "id": 1,
+    "title": "Series A",
+    "image": "path_to_image_A",
+    "genre": "Drama",
+    "seasons": [
+      {
+        "seasonNumber": 1,
+        "episodes": [
+          {
+            "episodeNumber": 1,
+            "title": "Episode 1",
+            "description": "Description of Episode 1",
+            "cast": ["Actor 1A", "Actor 2A", "Actor 3A"]
+          },
+          {
+            "episodeNumber": 2,
+            "title": "Episode 2",
+            "description": "Description of Episode 2",
+            "cast": ["Actor 4A", "Actor 5A", "Actor 6A"]
+          }
+        ]
+      },
+      {
+        "seasonNumber": 2,
+        "episodes": [
+          {
+            "episodeNumber": 1,
+            "title": "Episode 1",
+            "description": "Description of Episode 1",
+            "cast": ["Actor 7A", "Actor 8A", "Actor 9A"]
+          },
+          {
+            "episodeNumber": 2,
+            "title": "Episode 2",
+            "description": "Description of Episode 2",
+            "cast": ["Actor 10A", "Actor 11A", "Actor 12A"]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "title": "Series B",
+    "image": "path_to_image_B",
+    "genre": "Comedy",
+    "seasons": [
+      {
+        "seasonNumber": 1,
+        "episodes": [
+          {
+            "episodeNumber": 1,
+            "title": "Episode 1",
+            "description": "Description of Episode 1",
+            "cast": ["Actor 1B", "Actor 2B", "Actor 3B"]
+          },
+          {
+            "episodeNumber": 2,
+            "title": "Episode 2",
+            "description": "Description of Episode 2",
+            "cast": ["Actor 4B", "Actor 5B", "Actor 6B"]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "title": "Series C",
+    "image": "path_to_image_C",
+    "genre": "Action",
+    "seasons": [
+      {
+        "seasonNumber": 1,
+        "episodes": [
+          {
+            "episodeNumber": 1,
+            "title": "Episode 1",
+            "description": "Description of Episode 1",
+            "cast": ["Actor 1C", "Actor 2C", "Actor 3C"]
+          },
+          {
+            "episodeNumber": 2,
+            "title": "Episode 2",
+            "description": "Description of Episode 2",
+            "cast": ["Actor 4C", "Actor 5C", "Actor 6C"]
+          }
+        ]
+      },
+      {
+        "seasonNumber": 2,
+        "episodes": [
+          {
+            "episodeNumber": 1,
+            "title": "Episode 1",
+            "description": "Description of Episode 1",
+            "cast": ["Actor 7C", "Actor 8C", "Actor 9C"]
+          },
+          {
+            "episodeNumber": 2,
+            "title": "Episode 2",
+            "description": "Description of Episode 2",
+            "cast": ["Actor 10C", "Actor 11C", "Actor 12C"]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "title": "Series D",
+    "image": "path_to_image_D",
+    "genre": "Thriller",
+    "seasons": [
+      {
+        "seasonNumber": 1,
+        "episodes": [
+          {
+            "episodeNumber": 1,
+            "title": "Episode 1",
+            "description": "Description of Episode 1",
+            "cast": ["Actor 1D", "Actor 2D", "Actor 3D"]
+          },
+          {
+            "episodeNumber": 2,
+            "title": "Episode 2",
+            "description": "Description of Episode 2",
+            "cast": ["Actor 4D", "Actor 5D", "Actor 6D"]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 5,
+    "title": "Series E",
+    "image": "path_to_image_E",
+    "genre": "Sci-Fi",
+    "seasons": [
+      {
+        "seasonNumber": 1,
+        "episodes": [
+          {
+            "episodeNumber": 1,
+            "title": "Episode 1",
+            "description": "Description of Episode 1",
+            "cast": ["Actor 1E", "Actor 2E", "Actor 3E"]
+          },
+          {
+            "episodeNumber": 2,
+            "title": "Episode 2",
+            "description": "Description of Episode 2",
+            "cast": ["Actor 4E", "Actor 5E", "Actor 6E"]
+          }
+        ]
+      },
+      {
+        "seasonNumber": 2,
+        "episodes": [
+          {
+            "episodeNumber": 1,
+            "title": "Episode 1",
+            "description": "Description of Episode 1",
+            "cast": ["Actor 7E", "Actor 8E", "Actor 9E"]
+          },
+          {
+            "episodeNumber": 2,
+            "title": "Episode 2",
+            "description": "Description of Episode 2",
+            "cast": ["Actor 10E", "Actor 11E", "Actor 12E"]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 6,
+    "title": "Series F",
+    "image": "path_to_image_F",
+    "genre": "Fantasy",
+    "seasons": [
+      {
+        "seasonNumber": 1,
+        "episodes": [
+          {
+            "episodeNumber": 1,
+            "title": "Episode 1",
+            "description": "Description of Episode 1",
+            "cast": ["Actor 1F", "Actor 2F", "Actor 3F"]
+          },
+          {
+            "episodeNumber": 2,
+            "title": "Episode 2",
+            "description": "Description of Episode 2",
+            "cast": ["Actor 4F", "Actor 5F", "Actor 6F"]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 7,
+    "title": "Series G",
+    "image": "path_to_image_G",
+    "genre": "Mystery",
+    "seasons": [
+      {
+        "seasonNumber": 1,
+        "episodes": [
+          {
+            "episodeNumber": 1,
+            "title": "Episode 1",
+            "description": "Description of Episode 1",
+            "cast": ["Actor 1G", "Actor 2G", "Actor 3G"]
+          },
+          {
+            "episodeNumber": 2,
+            "title": "Episode 2",
+            "description": "Description of Episode 2",
+            "cast": ["Actor 4G", "Actor 5G", "Actor 6G"]
+          }
+        ]
+      },
+      {
+        "seasonNumber": 2,
+        "episodes": [
+          {
+            "episodeNumber": 1,
+            "title": "Episode 1",
+            "description": "Description of Episode 1",
+            "cast": ["Actor 7G", "Actor 8G", "Actor 9G"]
+          },
+          {
+            "episodeNumber": 2,
+            "title": "Episode 2",
+            "description": "Description of Episode 2",
+            "cast": ["Actor 10G", "Actor 11G", "Actor 12G"]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 8,
+    "title": "Series H",
+    "image": "path_to_image_H",
+    "genre": "Horror",
+    "seasons": [
+      {
+        "seasonNumber": 1,
+        "episodes": [
+          {
+            "episodeNumber": 1,
+            "title": "Episode 1",
+            "description": "Description of Episode 1",
+            "cast": ["Actor 1H", "Actor 2H", "Actor 3H"]
+          },
+          {
+            "episodeNumber": 2,
+            "title": "Episode 2",
+            "description": "Description of Episode 2",
+            "cast": ["Actor 4H", "Actor 5H", "Actor 6H"]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 9,
+    "title": "Series I",
+    "image": "path_to_image_I",
+    "genre": "Romance",
+    "seasons": [
+      {
+        "seasonNumber": 1,
+        "episodes": [
+          {
+            "episodeNumber": 1,
+            "title": "Episode 1",
+            "description": "Description of Episode 1",
+            "cast": ["Actor 1I", "Actor 2I", "Actor 3I"]
+          },
+          {
+            "episodeNumber": 2,
+            "title": "Episode 2",
+            "description": "Description of Episode 2",
+            "cast": ["Actor 4I", "Actor 5I", "Actor 6I"]
+          }
+        ]
+      },
+      {
+        "seasonNumber": 2,
+        "episodes": [
+          {
+            "episodeNumber": 1,
+            "title": "Episode 1",
+            "description": "Description of Episode 1",
+            "cast": ["Actor 7I", "Actor 8I", "Actor 9I"]
+          },
+          {
+            "episodeNumber": 2,
+            "title": "Episode 2",
+            "description": "Description of Episode 2",
+            "cast": ["Actor 10I", "Actor 11I", "Actor 12I"]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 10,
+    "title": "Series J",
+    "image": "path_to_image_J",
+    "genre": "Adventure",
+    "seasons": [
+      {
+        "seasonNumber": 1,
+        "episodes": [
+          {
+            "episodeNumber": 1,
+            "title": "Episode 1",
+            "description": "Description of Episode 1",
+            "cast": ["Actor 1J", "Actor 2J", "Actor 3J"]
+          },
+          {
+            "episodeNumber": 2,
+            "title": "Episode 2",
+            "description": "Description of Episode 2",
+            "cast": ["Actor 4J", "Actor 5J", "Actor 6J"]
+          }
+        ]
+      },
+      {
+        "seasonNumber": 2,
+        "episodes": [
+          {
+            "episodeNumber": 1,
+            "title": "Episode 1",
+            "description": "Description of Episode 1",
+            "cast": ["Actor 7J", "Actor 8J", "Actor 9J"]
+          },
+          {
+            "episodeNumber": 2,
+            "title": "Episode 2",
+            "description": "Description of Episode 2",
+            "cast": ["Actor 10J", "Actor 11J", "Actor 12J"]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 11,
+    "title": "Series K",
+    "image": "path_to_image_K",
+    "genre": "Family",
+    "seasons": [
+      {
+        "seasonNumber": 1,
+        "episodes": [
+          {
+            "episodeNumber": 1,
+            "title": "Episode 1",
+            "description": "Description of Episode 1",
+            "cast": ["Actor 1K", "Actor 2K", "Actor 3K"]
+          },
+          {
+            "episodeNumber": 2,
+            "title": "Episode 2",
+            "description": "Description of Episode 2",
+            "cast": ["Actor 4K", "Actor 5K", "Actor 6K"]
+          }
+        ]
+      },
+      {
+        "seasonNumber": 2,
+        "episodes": [
+          {
+            "episodeNumber": 1,
+            "title": "Episode 1",
+            "description": "Description of Episode 1",
+            "cast": ["Actor 7K", "Actor 8K", "Actor 9K"]
+          },
+          {
+            "episodeNumber": 2,
+            "title": "Episode 2",
+            "description": "Description of Episode 2",
+            "cast": ["Actor 10K", "Actor 11K", "Actor 12K"]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 12,
+    "title": "Series L",
+    "image": "path_to_image_L",
+    "genre": "Biography",
+    "seasons": [
+      {
+        "seasonNumber": 1,
+        "episodes": [
+          {
+            "episodeNumber": 1,
+            "title": "Episode 1",
+            "description": "Description of Episode 1",
+            "cast": ["Actor 1L", "Actor 2L", "Actor 3L"]
+          },
+          {
+            "episodeNumber": 2,
+            "title": "Episode 2",
+            "description": "Description of Episode 2",
+            "cast": ["Actor 4L", "Actor 5L", "Actor 6L"]
+          },
+          {
+            "episodeNumber": 3,
+            "title": "Episode 3",
+            "description": "Description of Episode 3",
+            "cast": ["Actor 7L", "Actor 8L", "Actor 9L"]
+          },
+          {
+            "episodeNumber": 4,
+            "title": "Episode 4",
+            "description": "Description of Episode 4",
+            "cast": ["Actor 10L", "Actor 11L", "Actor 12L"]
+          },
+          {
+            "episodeNumber": 5,
+            "title": "Episode 5",
+            "description": "Description of Episode 5",
+            "cast": ["Actor 13L", "Actor 14L", "Actor 15L"]
+          },
+          {
+            "episodeNumber": 6,
+            "title": "Episode 6",
+            "description": "Description of Episode 6",
+            "cast": ["Actor 16L", "Actor 17L", "Actor 18L"]
+          }
+        ]
+      }
+    ]
+  }
+]

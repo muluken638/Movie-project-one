@@ -3,3 +3,13 @@
 @tailwind utilities;
 
 
+
+
+.flex-grow {
+    overflow-y: auto; /* Allow scrolling for the main content */
+  }
+  
+  .sidebar {
+    overflow-y: auto; /* Allow scrolling if sidebar content exceeds height */
+  }
+  

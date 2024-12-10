@@ -1,10 +1,10 @@
 // src/Layout.js
 import React, { useState } from "react";
 import { FaSearch, FaUserCircle } from "react-icons/fa";
-import { Link, Outlet, useNavigate } from "react-router-dom"; // Import Link and useNavigate for routing
+import { Link, Outlet, useNavigate } from "react-router-dom";
 import { useAuth } from "../context/AuthContext";
 
-const Layout = ({ children }) => {
+const HomePageHeader = ({ children }) => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
   const [isDrawerOpen, setIsDrawerOpen] = useState(false);
   const { logout } = useAuth(); // Get logout function from AuthContext
@@ -14,10 +14,8 @@ const Layout = ({ children }) => {
     logout(); // Call logout function
     navigate("/"); // Redirect to homepage after logout
   };
-
   return (
-    <div className="flex flex-col min-h-screen">
-      {/* Header */}
+    <div>
       <header className="bg-gray-900 text-white p-4 sticky top-0 z-50">
         <nav className="container mx-auto flex items-center justify-between">
           {/* Logo */}
@@ -39,26 +37,14 @@ const Layout = ({ children }) => {
           <div className="flex items-center space-x-4">
             {/* Links for larger screens */}
             <ul className="hidden md:flex space-x-4">
-              <li><Link to="/homepage" className="hover:text-gray-400">Home</Link></li>
-              <li><Link to="/movies" className="hover:text-gray-400">Movies</Link></li>
-              <li><Link to="/series" className="hover:text-gray-400">Series</Link></li>
-              <li><Link to="/contact" className="hover:text-gray-400">Contact</Link></li>
+              <li><Link to="/" className="hover:text-gray-400">Home</Link></li>
+              <li><Link to="/about" className="hover:text-gray-400">About Us</Link></li>
+              <li><Link to="/contact" className="hover:text-gray-400">Contact us</Link></li>
+              <li><Link to="/login" className="hover:text-gray-400">Login</Link></li>
             </ul>
 
             {/* Avatar with Dropdown Menu */}
-            <div className="relative">
-              <FaUserCircle
-                className="text-2xl cursor-pointer"
-                onClick={() => setIsMenuOpen(!isMenuOpen)}
-              />
-              {isMenuOpen && (
-                <div className="absolute right-0 mt-2 w-40 bg-white text-black rounded shadow-lg py-2">
-                  <a href="#" className="block px-4 py-2 hover:bg-gray-200">Profile</a>
-                  <a href="#" className="block px-4 py-2 hover:bg-gray-200">Settings</a>
-                  <a href="/" className="block px-4 py-2 hover:bg-gray-200" onClick={handleLogout}>Logout</a> {/* Update Logout link */}
-                </div>
-              )}
-            </div>
+           
 
             {/* Hamburger Menu for Small Screens */}
             <button
@@ -80,28 +66,16 @@ const Layout = ({ children }) => {
               ✕
             </button>
             <ul className="space-y-4 text-lg">
-              <li><Link to="/homepage" className="hover:text-gray-400">Home</Link></li>
-              <li><Link to="/movies" className="hover:text-gray-400">Movies</Link></li>
-              <li><Link to="/series" className="hover:text-gray-400">Series</Link></li>
+              <li><Link to="/" className="hover:text-gray-400">Home</Link></li>
+              <li><Link to="/about" className="hover:text-gray-400">About</Link></li>
               <li><Link to="/contact" className="hover:text-gray-400">Contact</Link></li>
+              <li><Link to="/login" className="hover:text-gray-400">Login</Link></li>
             </ul>
           </div>
         )}
       </header>
-
-      {/* Main Content */}
-      <main className="flex-grow container mx-auto">
-        <Outlet />
-      </main>
-
-      {/* Footer */}
-      <footer className="bg-gray-900 text-white p-4">
-        <div className="container mx-auto text-center">
-          &copy; {new Date().getFullYear()} MovieFlix. All rights reserved.
-        </div>
-      </footer>
     </div>
-  );
-};
+  )
+}
 
-export default Layout;
+export default HomePageHeader

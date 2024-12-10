@@ -1,6 +1,6 @@
 import React, { useRef, useEffect } from "react";
 
-const RecommendedMovies = ({ recommendedMovies }) => {
+const RecommendedMovies = ({ recommendedMovies = [] }) => {
   const scrollContainerRef = useRef(null);
 
   // Custom scrolling function
@@ -42,19 +42,23 @@ const RecommendedMovies = ({ recommendedMovies }) => {
           ref={scrollContainerRef}
           className="flex space-x-4 overflow-x-scroll pb-4 scrollbar-hide"
         >
-          {recommendedMovies.map((movie) => (
-            <div
-              key={movie.id}
-              className="flex-shrink-0 w-[45%] sm:w-[30%] md:w-[20%] lg:w-[15%] h-60"
-            >
-              <img
-                src={movie.image}
-                alt={movie.title}
-                className="w-full h-full object-cover rounded-lg"
-              />
-              <h4 className="text-center text-white mt-2">{movie.title}</h4>
-            </div>
-          ))}
+          {recommendedMovies.length > 0 ? (
+            recommendedMovies.map((recom) => (
+              <div
+                key={recom.id}
+                className="flex-shrink-0 w-[45%] sm:w-[30%] md:w-[20%] lg:w-[15%] h-60 transition-transform transform hover:scale-105 hover:shadow-lg border border-gray-500 rounded-lg overflow-hidden"
+              >
+                <img
+                  src={recom.image}
+                  alt={recom.title}
+                  className="w-full h-full object-cover"
+                />
+                <h4 className="text-center text-white mt-2">{recom.title}</h4>
+              </div>
+            ))
+          ) : (
+            <p className="text-center text-gray-400">No recommended movies available</p>
+          )}
         </div>
 
         {/* Right Arrow */}
